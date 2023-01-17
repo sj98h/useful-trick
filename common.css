@@ -1,0 +1,12 @@
+body {
+  padding: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+}
+a::before {
+  content: "•";
+  margin-right: 10px;
+}
